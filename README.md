@@ -33,9 +33,9 @@ If you want [@ankigen_bot](https://t.me/ankigen_bot) to support another language
 ## Installation
 For executing this code, you will need to have:
 
-+ The following python libraries: sqlite3, selenium, the telegram-bot libraries and pronouncing. For instance, with pip it would be
++ The following python libraries: selenium, the telegram-bot libraries and pronouncing. For instance, with pip it would be
 ```
-pip3 install sqlite3 selenium python-telegram-bot pronouncing
+pip3 install selenium python-telegram-bot pronouncing
 ```
 
 + [translate shell](https://github.com/soimort/translate-shell/), follow the instructions in the repository for installation.
@@ -45,7 +45,7 @@ pip3 install sqlite3 selenium python-telegram-bot pronouncing
 git clone https://github.com/damaru2/ankigenbot
 cd ankigenbot
 mkdir data log
-echo "token_id = '<your_bot_token_id>'" > ./src/private_config.py
+echo "token_id = '<your_bot_token_id>'" > ./src/private_conf.py
 ```
 
 + Chrome (or Chromium). Open `src/send_card.py` and edit `options.binary_location` so it points to where your Chrome/Chromium binary file is.
